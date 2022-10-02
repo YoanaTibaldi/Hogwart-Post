@@ -1,0 +1,117 @@
+
+
+.background{
+    
+    background-color: rgb(77, 63, 209, 0.75);
+    font-family: Tahoma;
+
+}
+
+.user{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-row-gap: 20px;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+   
+}
+
+.move-both{
+    position: relative;
+    bottom: 30px;
+}
+
+.img-frontpage{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: block;
+  
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+
+/* comienza el nav bar  */
+/* ejemplo usado de w3school */
+.navbar {
+    display: block;
+    height: 60px;
+    line-height: 50px;
+    background-color: rgb(123, 77, 161);
+}
+  
+  /* Sacarle los puntitos, margenes y padding */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  /* Para darle el orden uno al lado del otro */
+.navbar li {
+    float: left;
+}
+  
+  /* Define the block styling for the links */
+.navbar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 70px;
+    font-size: 28px;
+    font-family: sans-serif;
+    position: relative;
+    left: 50px;
+    color: #f9f8f8;
+    line-height: 20px;
+}
+  
+.navbar a:hover {
+    background-color: rgb(141, 96, 179);
+    color: black;
+}
+.navbar a.active {
+    background-color: aliceblue;
+    color: white;
+}
+  
+  /* Style the navbar */
+#nav {
+    position: relative;
+    bottom: 50px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#contenedor{
+    width: 900px;
+    position: relative;
+    left: 200px;
+    text-align: center;
+
+}
+
+#firmas{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 700px;
+}
+
+
+footer{
+    position: relative;
+    top: 100px;
+    text-align: end;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8949b4;
+}

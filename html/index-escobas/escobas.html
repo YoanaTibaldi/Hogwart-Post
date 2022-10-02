@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-varita.css">
+    <title>Hogwart Post</title>
+</head>
+<body class="background">
+    <div class="move-both">
+        <div>
+           <a href="/html/index.html"> <img src="/html/css/owl-01.png" alt="" class="img-frontpage"> </a>    
+        </div>
+
+        <div class="title">
+            <h4>Hogwart Post</h4> 
+        </div>
+    </div>
+    
+    <div id="move-all">
+        <h1 style="font-size: 40px;">Escobas</h1>
+        <h4 style="font-style: oblique; font-weight: lighter; ">"Las varitas son tan poderosas como los magos que las usan..."
+            — Hermione Granger</h4>
+        
+        <hr color="black"> </hr>
+
+
+        <section class="container">
+            <div class="box">
+
+            
+
+                <div id="articulo" class="uno">
+                    <img id="img-portada" src="/assets/varita-HP.jpg" alt="Varita de HP">
+                    <h3>Phoenix feather</h3>       
+                    <p>11 pulgadas de largo, hecha de acebo, y posee un núcleo de plumas de fénix</p>
+                    <h4> Precio: $7</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_phoenix)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+
+                <div id="articulo" class="dos">
+                    <img id="img-portada" src="/assets/varita_Hermione.jpg" alt="Varita de HP">
+                    <h3>Dragon Heartstring</h3>       
+                    <p>10 pulgadas de largo, hecha de trepadora, y posee un núcleo de fibra de corazón de dragón</p>
+                    <h4> Precio: $10</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_hermione)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+            
+            
+                <div id="articulo">
+                    <img id="img-portada" src="/assets/varita-Victor.jpg" alt="Varita de HP">
+                    <h3>Dragon Heartstring-Carpe</h3>       
+                    <p>10 pulgadas de largo, hecha de carpe, y posee un núcleo de fibra de corazón de dragón</p>
+                    <h4> Precio: $7</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_victor)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+                <div id="articulo">
+                    <img id="img-portada" src="/assets/varita-malfoy.jpg" alt="Varita de HP">
+                    <h3>Unicorn Hair</h3>       
+                    <p>10 pulgadas de largo, hecha de espino, y posee un núcleo de cabello de unicornio</p>
+                    <h4> Precio: $9</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_malfoy)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+    
+                <div id="articulo">
+                    <img id="img-portada" src="/assets/varita-fleur.jpg" alt="Varita de HP">
+                    <h3> Veela Hair</h3>       
+                    <p>9 pulgadas de largo, hecha de palisandro, y posee un núcleo de cabello de Veela</p>
+                    <h4> Precio: $7</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_fleur)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+                <div id="articulo">
+                    <img id="img-portada" src="/assets/varita-seraphine.jpg" alt="Varita de HP">
+                    <h3>Rougarou Hair</h3>       
+                    <p>13 pulgadas de largo, hecha de mayhaw del pantano, y posee un núcleo de Rougarou</p>
+                    <h4> Precio: $13</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_seraphina)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+                
+            </div>
+
+
+            <!-- esto se conecta con los objetos literales de varitas
+            y se completan con cargarModal(data), al presionar el boton 'Comprar'
+            se rellenan los campos (ver botones)-->
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="contenido">
+                        <img id="imagen" src="" alt="#">
+                        <h1 id="titulo"> </h1>
+                        <p id="desc"> </p>
+                        <hr></hr>
+                        <ul style="text-decoration: none;">
+                            <li id="fabricante">  </li>
+                            <li id="madera"> </li>
+                            <li id="nucleo"> </li>
+                        </ul>  
+                        <div>
+                            <h4>Tipo de envío</h4>
+                            <div id="move-envios">
+                                <input type="image" src="/assets/hagrid_envio.png" id="img-envio"> 
+                                <p>Hagrid</p>
+                                <input type="image"  src="/assets/buho_envio.jpg" id="img-envio">
+                                <p> Búho</p>
+                            </div>
+                            
+                            
+                        </div>
+                        <div id="move-btn">           
+                            <button id="btnDown" >-</button>
+                            <h2 id="counter">0</h2>
+                            <button id="btnUp">+</button>
+                        </div>
+                        <button id="btnConfirm">Confirmar</button>
+                    
+                    </div>
+                </div>
+
+                <!-- Modal content -->
+
+                    <!-- <span class="close">&times;</span>
+                    <div id="contenido">
+                        <h1>Hola Hola!</h1>
+                        <p>" La varita elige al mago... no siempre está claro por qué " .
+                            — Ollivander </p>
+                        <ul style="text-decoration: none;">
+                            <li> Fabricante: Garrick Ollivander </li>
+                            <li> Madera: acebo</li>
+                            <li> Nucleo: Plumas de Fénix</li>
+                        </ul>  
+                    </div> -->
+                    
+            
+            </div>
+        </section>
+        <footer> 
+            <h5> Copyright 2022</h5>
+            <p>Yoana Tibaldi</p>
+            <p>De fan para fans</p>
+        </footer>
+
+    </div>
+    
+    <script src="/html/index-varitas/modal-compra.js"></script>
+</body>
+</html>

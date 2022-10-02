@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-uniformes.css">
+    <title>Hogwart Post</title>
+</head>
+<body class="background">
+    <div class="move-both">
+        <div>
+           <a href="/html/index.html"> <img src="/html/css/owl-01.png" alt="" class="img-frontpage"> </a>    
+        </div>
+
+        <div class="title">
+            <h4>Hogwart Post</h4> 
+        </div>
+    </div>
+    
+    <div id="move-all">
+        <h1 style="font-size: 40px;">Uniformes</h1>
+        <h4 style="font-style: oblique; font-weight: lighter; ">¡Muy buenas noches a todos! [...] Y ahora... A los nuevos alumnos les digo: ¡bienvenidos! <br> Y a los que no son nuevos les repito: ¡bienvenidos otra vez! Los espera un año más de educación mágica...»
+            —Albus Dumbledore </h4>
+        
+        <hr color="black"> </hr>
+
+
+        <section class="container">
+            <div class="box">
+
+            
+
+                <div id="articulo" class="uno">
+                    <img id="img-portada" src="/assets/uniformes/uniform-slytherin.jpg" alt="Varita de HP">
+                    <h3>Casa Slytherin</h3>       
+                    <p>Fundada por Salazar Slytherin. Los estudiantes que pertencen aquí tienen características particulares que incluyen: astucia, ingenio y ambición. Muchos estudiantes de Slytherin tienden a hacer camarillas juntos, a menudo adquiriendo líderes, lo que es un ejemplo más de las ambiciosas cualidades de Slytherin.</p>
+                    <h4> Precio: $4</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_phoenix)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+
+                <div id="articulo" class="dos">
+                    <img id="img-portada" src="/assets/uniformes/uniform-hufflepuff.jpg" alt="Varita de HP">
+                    <h3>Casa Hufflepuff</h3>       
+                    <p>Su fundadora es la bruja medieval Helga Hufflepuff. Hufflepuff es la más inclusiva de las cuatro casas; el trabajo duro, la paciencia, la amistad y la honestidad son sumamente necesarias para ser miembros.</p>
+                    <h4> Precio: $4</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_hermione)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+            
+            
+                <div id="articulo">
+                    <img id="img-portada" src="/assets/uniformes/uniform-ravenclaw.jpg" alt="Varita de HP">
+                    <h3>Casa Ravenclaw</h3>       
+                    <p>Fundada por Rowena Ravenclaw. Se dice que fue Ravenclaw quien le puso el nombre al castillo. Los miembros de esta casa se caracterizan por su ingenio, aprendizaje y sabiduría.</p>
+                    <h4> Precio: $4</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_victor)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+                <div id="articulo">
+                    <img id="img-portada" src="/assets/uniformes/uniform-gryffindor.jpg" alt="Varita de HP">
+                    <h3>Casa Gryffindor</h3>       
+                    <p>Fundada por Godric Gryffindor. La Casa de Gryffindor estima el coraje, así como la osadía, el temple y la caballerosidad, así, sus miembros se caracterizan por ser valientes aunque a veces hasta el punto de ser imprudentes</p>
+                    <h4> Precio: $4</h4> 
+
+                    <div id="move-elem">
+                        <img src="/assets/bolsa-de-la-compra.png" alt="" id="bolsa">
+                        <button onclick='cargarModal(varitas.varita_malfoy)'>Comprar</button>
+                    </div>
+    
+                    
+                </div>
+    
+               
+                
+            </div>
+
+
+            <!-- esto se conecta con los objetos literales de varitas
+            y se completan con cargarModal(data), al presionar el boton 'Comprar'
+            se rellenan los campos (ver botones)-->
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="contenido">
+                        <img id="imagen" src="" alt="#">
+                        <h1 id="titulo"> </h1>
+                        <p id="desc"> </p>
+                        <hr></hr>
+                        <ul style="text-decoration: none;">
+                            <li id="fabricante">  </li>
+                            <li id="madera"> </li>
+                            <li id="nucleo"> </li>
+                        </ul>  
+                        <div>
+                            <h4>Tipo de envío</h4>
+                            <div id="move-envios">
+                                <input type="image" src="/assets/hagrid_envio.png" id="img-envio"> 
+                                <p>Hagrid</p>
+                                <input type="image"  src="/assets/buho_envio.jpg" id="img-envio">
+                                <p> Búho</p>
+                            </div>
+                            
+                            
+                        </div>
+                        <div id="move-btn">           
+                            <button id="btnDown" >-</button>
+                            <h2 id="counter">0</h2>
+                            <button id="btnUp">+</button>
+                        </div>
+                        <button id="btnConfirm">Confirmar</button>
+                    
+                    </div>
+                </div>
+          
+            </div>
+        </section>
+        <footer> 
+            <h5> Copyright 2022</h5>
+            <p>Yoana Tibaldi</p>
+            <p>De fan para fans</p>
+        </footer>
+
+    </div>
+    
+    <script src="/html/index-uniformes/modal-uniformes.js"></script>
+</body>
+</html>

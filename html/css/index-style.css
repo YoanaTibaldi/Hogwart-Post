@@ -1,0 +1,257 @@
+
+
+.background{
+    
+    background-color: rgb(77, 63, 209, 0.75);
+    font-family: Tahoma;
+
+}
+
+.user{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-row-gap: 20px;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+   
+}
+
+.move-both{
+    position: relative;
+    bottom: 30px;
+}
+
+.img-frontpage{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: block;
+  
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+
+/* comienza el nav bar  */
+/* ejemplo usado de w3school */
+.navbar {
+    display: block;
+    height: 60px;
+    line-height: 50px;
+    background-color: rgb(123, 77, 161);
+}
+  
+  /* Sacarle los puntitos, margenes y padding */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  /* Para darle el orden uno al lado del otro */
+.navbar li {
+    float: left;
+}
+  
+  /* Define the block styling for the links */
+.navbar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 70px;
+    font-size: 28px;
+    font-family: sans-serif;
+    position: relative;
+    left: 50px;
+    color: #f9f8f8;
+    line-height: 20px;
+}
+  
+.navbar a:hover {
+    background-color: rgb(141, 96, 179);
+    color: black;
+}
+.navbar a.active {
+    background-color: aliceblue;
+    color: white;
+}
+  
+  /* Style the navbar */
+#nav {
+    position: relative;
+    bottom: 50px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+
+
+/* Subtitulo */
+.subtitle{
+    text-align: center;
+    line-height: 5%;
+    position: relative;
+    bottom: 50px;
+    font-size: 24px;
+}
+
+
+
+/* Feature */
+.c-inner{
+    background-color: #8949b4;
+    height: 200px;
+    width: 800px;
+    position: relative;
+    left: 300px;
+}
+
+
+.feature{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.icon{
+    position: relative;
+    right: 300px;
+    top: 30px;
+}
+
+.ftext{
+    position: relative; 
+    top: 40px;
+    line-height: 2%; 
+    font-size: 16px;
+
+}
+
+
+
+/* Sale Items */
+
+
+
+
+.col{
+    width: 350px;
+}
+
+
+/* .grilla{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 450px 450px;
+    justify-content: space-evenly;
+     
+} */
+
+/* .product{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 3px rgb(176, 167, 230);
+    font-size: 20px;
+  
+} */ 
+
+
+
+
+
+
+
+/* botones */
+#esp-button{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 200px;
+}
+  
+#btnNext{
+
+    border  : 10px;
+    margin  : 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    font-size: 16px;
+}
+
+#btnBack{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border  : 10px;
+    margin  : 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    font-size: 16px;
+}
+
+.style-review{
+    position: relative;
+    top: 100px;
+    background: rgb(153, 117, 253);
+}
+
+.title-review{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+
+.review {
+    background: rgb(227, 206, 236);
+    height: 325px;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    align-items: center;
+} 
+
+.userReview{
+    text-align: center;
+
+}
+
+.userReview img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+  
+.userReview h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+  
+.userReview p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color:  rgb(204, 185, 212) ;
+}
+
+.checked {
+    color: orange;
+}
+
+footer{
+    position: relative;
+    top: 100px;
+    text-align: end;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8949b4;
+}

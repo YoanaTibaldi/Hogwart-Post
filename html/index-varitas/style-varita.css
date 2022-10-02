@@ -1,0 +1,239 @@
+body{ 
+    background-color: rgb(77, 63, 209, 0.75);
+    font-family: Verdana;
+    text-align: center;
+     
+}
+#move-all{
+    position: relative;
+    bottom: 125px;
+}
+
+.move-both{
+    position: relative;
+    right: 600px;
+}
+
+.img-frontpage{
+    width: 75px;
+    height: 75px;
+    margin: auto;
+     
+}
+
+.title{
+    text-align: center;
+    /* font-size: 30px; */
+    position: relative;
+    bottom: 30px;
+    
+}
+
+
+.box{
+    display: grid;  
+    gap: 30px 10px;
+    /* justify-content: space-evenly; */   
+}
+
+.uno{
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+.dos{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#articulo{
+    background: rgb(227, 206, 236);
+    height: 200px;
+    width: 550px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    align-items: center;
+    border-bottom: 5px solid;
+    border-bottom-width: 40px;
+    border-bottom-color: rgb(192, 167, 202);
+    border-top-width: 20px;
+    border-top: 5px solid;
+    border-top-width: 40px;
+    border-top-color: rgb(192, 167, 202);
+         
+}
+
+#img-portada{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+
+#bolsa{
+    height: 32px;
+    width: 32px;
+    /* position: relative;
+    bottom: 80px; */
+    
+}
+
+#move-elem{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+
+  
+
+}
+
+/* modal */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+  
+  /* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+    border-bottom: 5px solid;
+    border-bottom-width: 40px;
+    border-bottom-color: rgb(192, 167, 202);
+    border-top-width: 20px;
+    border-top: 5px solid;
+    border-top-width: 40px;
+    border-top-color: rgb(192, 167, 202);
+}
+  
+  /* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#imagen{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    top: 100px;
+
+}
+
+#img-envio{
+    height: 50px;
+    width: 50px;
+    border-radius: 75px;
+    border: #000 solid 3px;
+ 
+}
+
+#img-envio:focus{
+    border: 3px solid  rgb(155, 91, 238);
+}
+
+
+#move-btn{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 30px ;
+   
+}
+
+
+
+#btnUp{
+    border  : 10px;
+    margin  : 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    font-size: 28px;
+    font-weight: bolder;
+    background-color: rgb(133, 85, 223);
+}
+
+#btnDown{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border  : 10px;
+    margin  : 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    font-size: 28px;
+    font-weight: bolder;
+    background-color: rgb(133, 85, 223);
+}
+
+#move-envios{
+    display: flex;  
+    justify-content: center;
+    position: relative;
+    left: 120px;
+}
+
+#move-envios p{
+    position: relative;
+    top: 45px;
+    right: 50px;
+}
+
+#btnConfirm{
+    border: 10px;
+    margin: 0px;
+    border-radius: 80px;
+    background-color: rgb(152, 56, 231);
+    height: 40px;
+    width: 130px;
+    float: right;
+    font-size: 16px;
+    position: relative;
+    bottom: 30px;
+}
+
+#btnConfirm:hover{
+    background-color: rgb(122, 40, 189);
+    
+}
+
+footer{
+    position: relative;
+    top: 150px;
+    text-align: end;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8949b4;
+}
